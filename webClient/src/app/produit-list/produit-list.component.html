@@ -1,0 +1,7 @@
+<h1 style="text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 500px;">The Products</h1>
+<div >
+<h3 style=" height: 50px; color: blue; " class="hero" *ngFor="let pro of produitList$  ">
+  <table align="center" style="margin: 0px auto;">
+  {{pro.name}} - {{pro.price}} - {{pro.quantity}} <!--- <img mat-card-image class="imgs" src={{pro.image}} alt="" />-->
+  </table>
+</h3>
